@@ -1,11 +1,11 @@
 {
-  "name": "debate-dojo",
+  "name": "activity-debate-dojo",
   "version": "1.0.0",
-  "description": "Discord Activity prototype for VEI / Debate Dojo.",
-  "main": "main.js",
+  "type": "module",
   "scripts": {
     "start": "node main.js"
   },
-  "author": "S1rca",
-  "license": "Apache-2.0"
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
